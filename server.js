@@ -27,7 +27,7 @@ if (!isProduction) {
   app.use(base, sirv('./dist/client', { extensions: [] }))
 }
 
-app.use('*', async (req, res) => {
+app.use(/.*/, async (req, res) => {
   try {
     const url = req.originalUrl.replace(base, '')
 
