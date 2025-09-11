@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import ProjectCard from '../components/ProjectCard';
 import CTA from '../components/CTA';
+import { Helmet } from 'react-helmet';
 
 const Projects: React.FC = () => {
   const projects = [
@@ -96,6 +97,7 @@ const Projects: React.FC = () => {
   ];
   
   
+  
 
   const container = {
     hidden: { opacity: 0 },
@@ -113,7 +115,65 @@ const Projects: React.FC = () => {
   };
 
   return (
-    <div className="pt-20">
+    <>
+    <Helmet>
+  {/* 🔹 Basic SEO */}
+  <title>Projects of Anil Wagle – Web Developer</title>
+  <meta
+    name="description"
+    content="Explore the portfolio projects of Anil Wagle – showcasing React, Node.js, and full-stack development work from Nepal."
+  />
+  <link rel="canonical" href="https://www.anilwagle.com.np/projects" />
+
+  {/* 🔹 Open Graph (Facebook / LinkedIn) */}
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Projects of Anil Wagle – Web Developer" />
+  <meta
+    property="og:description"
+    content="Discover Anil Wagle’s featured projects in web development, UI/UX, and software solutions."
+  />
+  <meta property="og:url" content="https://www.anilwagle.com.np/projects" />
+  <meta
+    property="og:image"
+    content="https://www.anilwagle.com.np/anil-wagle-projects.jpg"
+  />
+
+  {/* 🔹 Twitter Cards */}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Projects of Anil Wagle – Web Developer" />
+  <meta
+    name="twitter:description"
+    content="Showcasing portfolio projects by Anil Wagle, React & Node.js developer from Nepal."
+  />
+  <meta
+    name="twitter:image"
+    content="https://www.anilwagle.com.np/anil-wagle-projects-twitter.jpg"
+  />
+
+  {/* 🔹 Schema Markup (JSON-LD) */}
+  <script type="application/ld+json">
+    {JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      name: "Projects of Anil Wagle",
+      url: "https://www.anilwagle.com.np/projects",
+      mainEntity: [
+        {
+          "@type": "Person",
+          name: "Anil Wagle",
+          jobTitle: "Software Developer",
+          url: "https://www.anilwagle.com.np",
+          sameAs: [
+            "https://github.com/anilSysBit",
+            "https://www.linkedin.com/in/anil-wagle-a09609224"
+          ]
+        }
+      ]
+    })}
+  </script>
+</Helmet>
+
+      <div className="pt-20">
       <div className="bg-gradient-to-br from-gray-50 to-blue-50 dark:from-gray-900 dark:to-gray-800 py-20">
         <div className="container-custom text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6 dark:text-white">My Projects</h1>
@@ -142,6 +202,8 @@ const Projects: React.FC = () => {
       
       <CTA />
     </div>
+    </>
+
   );
 };
 
