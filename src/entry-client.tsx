@@ -10,6 +10,7 @@ hydrateRoot(
   <StrictMode>
     <BrowserRouter>
     <ThemeProvider>
+      
         <App />
     </ThemeProvider>
     </BrowserRouter>

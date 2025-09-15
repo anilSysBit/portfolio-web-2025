@@ -1,5 +1,6 @@
 import fs from 'node:fs/promises'
 import express from 'express'
+import {metaConfig} from './src/meta.js'
 
 // Constants
 const isProduction = process.env.NODE_ENV === 'production'
@@ -53,8 +54,10 @@ app.use('*all', async (req, res) => {
 
     const rendered = await render(url)
 
+    const head = metaConfig[url] || metaConfig['/'];
+
     const html = template
-      .replace(`<!--app-head-->`, rendered.head ?? '')
+      .replace(`<!--app-head-->`, head)
       .replace(`<!--app-html-->`, rendered.html ?? '')
 
     res.status(200).set({ 'Content-Type': 'text/html' }).send(html)

@@ -9,8 +9,10 @@ import Contact from './pages/Contact';
 import ScrollToTop from './components/ScrollToTop';
 import './index.css'
 import { ThemeProvider } from './context/ThemeContext';
+
 function App() {
   return (
+    
     <ThemeProvider>
 <div className="flex flex-col min-h-screen bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-200 transition-colors duration-200">
         <ScrollToTop />
