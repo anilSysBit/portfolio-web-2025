@@ -9,6 +9,7 @@ import Contact from './pages/Contact';
 import ScrollToTop from './components/ScrollToTop';
 import './index.css'
 import { ThemeProvider } from './context/ThemeContext';
+import AppRedirect from './pages/my-edvisor';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/my-edvisor" element={<AppRedirect />} />
           </Routes>
         </main>
         <Footer />
