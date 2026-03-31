@@ -5,17 +5,16 @@ import { ChevronLeft, ChevronRight, Quote } from 'lucide-react';
 const Testimonials: React.FC = () => {
   const testimonials = [
     {
+      name: 'Dev Mainali',
+      position: 'Reporting Manager, ThinkMove Solutions',
+      content: "It has been a great experience working with Anil Wagle. He is a highly dedicated and versatile developer with strong full stack capabilities. His ability to handle both frontend and backend tasks efficiently, along with his problem-solving mindset, makes him a valuable asset to any team. Anil consistently delivers quality work and contributes positively to project success.",
+      image: 'https://cdn-icons-png.flaticon.com/512/8999/8999982.png',
+    },
+    {
       name: 'Saugat Devkota',
       position: 'CEO, SD Tech Company',
       content: "It was very nice working with Anil Wagle, who was a game-changer. He completed the work very well.",
-      image: 'https://media.licdn.com/dms/image/v2/D4E03AQH-gIyE-TWdyQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1707847055735?e=1746662400&v=beta&t=LcyLx2u0rFcVsXye0RVHvhv0yzSid_4IyihUD8IuLnw',
-    },
-    {
-      name: 'Padma Adhikari',
-      position: 'Co-Founder, Jagatpur E Bazar',
-      content: "Anil is one of the most talented developers I've worked with. He has a deep understanding of both frontend and backend technologies, and consistently delivers high-quality code. He's also great at communicating complex technical concepts.",
-      image: 'https://picsum.photos/100?random=2',
-
+      image: 'https://media.licdn.com/dms/image/v2/C4D0BAQGwWCR3BqrCWA/company-logo_200_200/company-logo_200_200/0/1655606522116/sdtechcompany_logo?e=1776297600&v=beta&t=22LIMzPQMqSSlYeQbXkjjBnJPE0AIUmavEzJOsSe9GY',
     },
     {
       name: 'Sushant Rimal',

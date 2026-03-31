@@ -5,6 +5,14 @@ import CTA from '../components/CTA';
 const Projects: React.FC = () => {
   const projects = [
     {
+      title: 'Audit Inventory Management system',
+      description: 'A full-featured online store with a user website, admin panel, and seller panel.',
+      image: '/projects/ims-product.png',
+      tags: ['Typescript', 'Django', 'My SQL', "MUI"],
+      liveUrl: '',
+      githubUrl: 'https://github.com/anilSysBit',
+    },
+    {
       title: 'Jagatpur E-Bazar',
       description: 'A real e-commerce website for selling projects with an interactive user site, admin panel, and seller panel.',
       image: '/projects/jagatpuradmin.jpg',

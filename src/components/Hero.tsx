@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import Typewriter from './TypingEffect';
 
 const Hero: React.FC = () => {
-  const roles = ["Web Developer", "Frontend Developer", "Backend Developer", "Project Manager"];
+  const roles = ["Full-Stack Developer", "Project Manager"];
 
 
 

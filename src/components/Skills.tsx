@@ -3,17 +3,21 @@ import { motion } from 'framer-motion';
 
 const Skills: React.FC = () => {
   const skills = [
-    { name: 'HTML5', level: 95 },
-    { name: 'CSS3/SCSS', level: 90 },
-    { name: 'JavaScript', level: 92 },
+    { name: 'Django', level: 90 },
     { name: 'TypeScript', level: 85 },
+    { name: 'Laravel', level: 60 },
+    { name: 'ASP.NET', level: 60 },
+    { name: 'Project Management', level: 95 },
+    { name: 'CSS3/SCSS', level: 90 },
     { name: 'React.js', level: 90 },
     { name: 'Next.js', level: 60 },
-    { name: 'Django', level: 90 },
-    { name: 'Laravel', level: 60 },
     { name: 'MySQL', level: 70 },
+    { name: 'POSTGRES', level: 70 },
     { name: 'Tailwind CSS', level: 88 },
     { name: 'Git/GitHub', level: 85 },
+    { name: 'POSTMAN / API DOG', level: 85 },
+    { name: 'Docker', level: 85 },
+    { name: 'Docker', level: 85 },
   ];
 
   const container = {
@@ -57,14 +61,14 @@ const Skills: React.FC = () => {
             >
               <div className="flex justify-between items-center mb-3">
                 <h3 className="text-lg font-semibold dark:text-white">{skill.name}</h3>
-                <span className="text-sm font-medium text-gray-600 dark:text-gray-400">{skill.level}%</span>
+                {/* <span className="text-sm font-medium text-gray-600 dark:text-gray-400">{skill.level}%</span> */}
               </div>
-              <div className="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2.5">
+              {/* <div className="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2.5">
                 <div 
                   className="bg-primary-600 dark:bg-primary-500 h-2.5 rounded-full" 
                   style={{ width: `${skill.level}%` }}
                 ></div>
-              </div>
+              </div> */}
             </motion.div>
           ))}
         </motion.div>

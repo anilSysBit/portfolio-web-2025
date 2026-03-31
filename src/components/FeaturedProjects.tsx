@@ -7,12 +7,20 @@ import ProjectCard from './ProjectCard';
 const FeaturedProjects: React.FC = () => {
   const projects = [
     {
+      title: 'Audit Inventory Management system',
+      description: 'A full-featured online store with a user website, admin panel, and seller panel.',
+      image: '/projects/ims-product.png',
+      tags: ['Typescript', 'Django', 'My SQL', "MUI"],
+      liveUrl: '',
+      githubUrl: 'https://github.com/anilSysBit',
+    },
+    {
       title: 'E-Commerce Platform',
       description: 'A full-featured online store with a user website, admin panel, and seller panel.',
       image: '/projects/jagatpuradmin.jpg',
-      tags: ['React', 'Node.js', 'MongoDB', 'Stripe'],
-      liveUrl: 'https://example.com',
-      githubUrl: 'https://github.com',
+      tags: ['React', 'Django'],
+      liveUrl: 'https://jebadmin.vercel.app',
+      githubUrl: 'https://github.com/anilSysBit',
     },
     {
       title: 'Sports Management System',
@@ -20,16 +28,8 @@ const FeaturedProjects: React.FC = () => {
       image: '/projects/sportstable.png',
       tags: ['Django', 'React.js', 'REST Framework'],
       liveUrl: 'https://example.com',
-      githubUrl: 'https://github.com',
-    },
-    {
-      title: 'Portfolio Website',
-      description: 'A modern, responsive portfolio website showcasing projects and skills.',
-      image: '/projects/portfolio.png',
-      tags: ['React', 'Framer Motion', 'Tailwind CSS'],
-      liveUrl: 'https://example.com',
       githubUrl: 'https://github.com/anilSysBit',
-    }
+    },
   ]
   
 

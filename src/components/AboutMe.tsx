@@ -5,19 +5,33 @@ import { Download } from 'lucide-react';
 const AboutMe: React.FC = () => {
   const experiences = [
     {
+      title: "Full-Stack Developer",
+      company: "Thinkmove Solutions",
+      period: "2025 - 2026",
+      description:
+        "Led end-to-end development of a SaaS product, taking full ownership from project planning and architecture to deployment and maintenance. Managed databases, built scalable backend services, and developed responsive frontend interfaces. Collaborated cross-functionally to deliver high-performance applications, while also contributing to product management, system design, and continuous improvements.",
+    },
+    {
       title: "Frontend Developer",
       company: "SD TECH",
       period: "2024 - 2025",
       description:
-        "Developed and maintained web applications using modern technologies, collaborating with teams to enhance functionality and performance.",
+        "Developed responsive and user-friendly web interfaces using modern frontend technologies. Built admin dashboards and eCommerce platforms, and transformed UI/UX designs into fully functional web applications. Focused on performance optimization, clean design implementation, and delivering seamless user experiences across devices.",
     },
     {
       title: "React & Django Training",
       company: "Open Source Platforms",
       period: "Self-Learning",
       description:
-        "Learned React for frontend development and Django for backend development through open-source materials, hands-on projects, and community contributions.",
+        "Acquired practical expertise in React and Django through structured self-learning, hands-on project development, and active engagement with open-source resources. Built and integrated frontend and backend applications, strengthening skills in full-stack development and modern web technologies.",
     },
+    {
+      title: "Business Modeling & Process Management",
+      company: "Self-Learning",
+      period: "Coursera",
+      description:
+        "Gained foundational knowledge in business modeling and process management concepts. Developed basic proficiency in business analysis techniques and tools such as Power BI, with an understanding of data visualization, reporting, and process optimization."
+    }
   ];
   
 
@@ -54,19 +68,15 @@ const AboutMe: React.FC = () => {
             <h2 className="text-3xl font-bold mb-6 dark:text-white">About Me</h2>
             
             <p className="text-gray-700 dark:text-gray-300 mb-6">
-              I'm Anil Wagle, a passionate web developer with hands on trainings and skills creating modern, 
-              responsive websites and web applications. I specialize in frontend development with React 
-              and have strong skills in backend technologies like Django or Laravel.
+            Full-stack web developer with hands-on experience building modern, responsive applications. Skilled in React for frontend development and Django/Laravel for backend systems, with a focus on performance, scalability, and seamless user experience.
             </p>
             
             <p className="text-gray-700 dark:text-gray-300 mb-6">
-              My approach to web development focuses on creating clean, efficient, and maintainable code 
-              that delivers exceptional user experiences. I'm constantly learning and staying updated with 
-              the latest technologies and best practices in the industry.
+            I focus on building scalable, maintainable solutions with clean and efficient code, ensuring seamless user experiences. I’m committed to continuous learning and staying aligned with the latest technologies and development standards.
             </p>
             
             <a 
-              href="./anilwaglecv2025.pdf"
+              href="./anil-wagle-cv.pdf"
               download="AnilWagle_CV.pdf"
               className="btn btn-primary mb-10"
               // onClick={(e) => {
@@ -97,7 +107,7 @@ const AboutMe: React.FC = () => {
                 {education.map((edu, index) => (
                   <div key={index} className="border-l-2 border-primary-500 dark:border-primary-400 pl-4">
                     <h4 className="font-medium dark:text-white">{edu.degree}</h4>
-                    <p className="text-sm text-gray-600 dark:text-gray-400">{edu.institution} | {edu.period}</p>
+                    <p className="text-sm text-gray-600 dark:text-gray-400">{edu.institution} | Completed |  {edu.period}</p>
                   </div>
                 ))}
               </div>
