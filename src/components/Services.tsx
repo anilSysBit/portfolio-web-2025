@@ -6,33 +6,33 @@ const Services: React.FC = () => {
   const services = [
     {
       title: 'Frontend Development',
-      description: 'Creating responsive, interactive user interfaces with modern frameworks like React and Next.js.',
+      description: 'Building high-performance, responsive user interfaces using React.js and modern libraries, focusing on seamless user experience and optimized rendering.',
       icon: <Layout className="h-10 w-10 text-primary-600 dark:text-primary-400" />,
     },
     {
       title: 'Backend Development',
-      description: 'Building robust server-side applications with Node.js, Express, and other backend technologies.',
+      description: 'Developing scalable backend systems using Django and REST APIs, with focus on performance optimization, secure authentication, and efficient data handling.',
       icon: <Server className="h-10 w-10 text-primary-600 dark:text-primary-400" />,
     },
     {
       title: 'Full Stack Development',
-      description: 'End-to-end application development combining frontend and backend expertise.',
+      description: 'Delivering end-to-end web applications including SaaS platforms and eCommerce systems, from system design to deployment using modern technologies.',
       icon: <Code className="h-10 w-10 text-primary-600 dark:text-primary-400" />,
     },
     {
-      title: 'Database Design',
-      description: 'Designing and implementing efficient database structures with MongoDB, PostgreSQL, and more.',
+      title: 'Database Design & Optimization',
+      description: 'Designing efficient database architectures using PostgreSQL and MySQL, with query optimization to improve performance and scalability.',
       icon: <Database className="h-10 w-10 text-primary-600 dark:text-primary-400" />,
     },
     {
-      title: 'Responsive Web Design',
-      description: 'Creating websites that work flawlessly across all devices and screen sizes.',
+      title: 'Performance & Optimization',
+      description: 'Improving application performance through code optimization, lazy loading, and efficient API handling to deliver faster and scalable systems.',
       icon: <Smartphone className="h-10 w-10 text-primary-600 dark:text-primary-400" />,
     },
     {
-      title: 'Project Management',
-      description: 'Providing efficient project planning, tracking, and collaboration solutions for teams.',
-      icon: <Database className="h-10 w-10 text-primary-600" />,
+      title: 'Deployment & DevOps',
+      description: 'Containerizing applications using Docker and implementing CI/CD pipelines to streamline deployment and reduce release time.',
+      icon: <Database className="h-10 w-10 text-primary-600 dark:text-primary-400" />,
     }
   ];
 

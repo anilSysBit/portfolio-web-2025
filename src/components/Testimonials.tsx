@@ -5,6 +5,12 @@ import { ChevronLeft, ChevronRight, Quote } from 'lucide-react';
 const Testimonials: React.FC = () => {
   const testimonials = [
     {
+      name: 'Pradeep Pokhrel',
+      position: 'CEO, ThinkMove Solutions',
+      content: "Anil demonstrated exceptional ownership and technical expertise while building our SaaS platform single-handedly. His ability to design, develop, and deliver a complete full-stack system from scratch was truly impressive. He is highly enthusiastic, proactive, and consistently goes beyond expectations to solve complex problems. Anil’s dedication, energy, and strong engineering mindset make him a standout developer and a valuable contributor to any product team.",
+      image: 'https://thinkmovesolutions.com/wp-content/uploads/2025/07/think-move-logo-1.png',
+    },
+    {
       name: 'Dev Mainali',
       position: 'Reporting Manager, ThinkMove Solutions',
       content: "It has been a great experience working with Anil Wagle. He is a highly dedicated and versatile developer with strong full stack capabilities. His ability to handle both frontend and backend tasks efficiently, along with his problem-solving mindset, makes him a valuable asset to any team. Anil consistently delivers quality work and contributes positively to project success.",

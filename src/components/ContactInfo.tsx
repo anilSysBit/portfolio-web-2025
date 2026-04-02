@@ -81,7 +81,7 @@ const ContactInfo: React.FC = () => {
         <h4 className="font-medium text-gray-900 mb-4">Connect With Me</h4>
         <div className="flex space-x-4">
           <a 
-            href="https://github.com" 
+            href="https://github.com/anilSysBit" 
             target="_blank" 
             rel="noopener noreferrer"
             className="p-2 bg-gray-800 text-white rounded-full hover:bg-gray-700 transition-colors"
@@ -92,7 +92,7 @@ const ContactInfo: React.FC = () => {
             </svg>
           </a>
           <a 
-            href="https://linkedin.com" 
+            href="https://www.linkedin.com/in/wagleanil/" 
             target="_blank" 
             rel="noopener noreferrer"
             className="p-2 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition-colors"

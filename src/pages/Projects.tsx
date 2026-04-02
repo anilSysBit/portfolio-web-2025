@@ -21,6 +21,13 @@ const Projects: React.FC = () => {
       githubUrl: 'https://github.com/anilSysBit',
     },
     {
+      title: 'Drone Selling Website',
+      description: 'Developed a responsive eCommerce website for drone products using React.js, converting UI/UX designs into a fully functional web application. Implemented product listings, user-friendly navigation, and optimized frontend performance for a seamless shopping experience.',
+      image: '/projects/paras/drone.png',
+      tags: ['React.js', 'Redux', 'REST'],
+      liveUrl:"https://drone-website-five.vercel.app/",
+    },
+    {
       title: 'Football Management System',
       description: 'Developed a full-stack sports management platform for organizing football events, teams, and user interactions. Built robust backend services using Django and REST APIs, and implemented a responsive React.js frontend for real-time data updates, team management, and event tracking.',
       image: '/projects/sportstable.png',
