@@ -12,7 +12,7 @@ const Footer: React.FC = () => {
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
               <Code className="h-8 w-8 text-primary-400" />
-              <span className="text-xl font-bold">DevPortfolio</span>
+              <span className="text-xl font-bold">Portfolio</span>
             </div>
             <p className="text-gray-400 mb-6 max-w-md">
               Building innovative web solutions with modern technologies.
@@ -61,7 +61,7 @@ const Footer: React.FC = () => {
                 </a>
               </li>
               <li className="text-gray-400">
-                <span>Chitwan, Nepal</span>
+                <span>Jhamshikhel, Lalitpur, Nepal</span>
               </li>
             </ul>
           </div>
@@ -69,7 +69,7 @@ const Footer: React.FC = () => {
 
         <div className="border-t border-gray-800 pt-8">
           <p className="text-center text-gray-500">
-            &copy; {currentYear} DevPortfolio. All rights reserved.
+            &copy; {currentYear} Portfolio. All rights reserved.
           </p>
         </div>
       </div>

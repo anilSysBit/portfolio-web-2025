@@ -13,7 +13,7 @@ const ContactInfo: React.FC = () => {
     {
       icon: <MapPin className="h-6 w-6 text-primary-600" />,
       title: 'Location',
-      value: 'Chitwan, Nepal',
+      value: 'Jhamshikhel,Lalitpur, Nepal',
     },
     {
       icon: <Phone className="h-6 w-6 text-primary-600" />,

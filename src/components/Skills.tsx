@@ -3,18 +3,21 @@ import { motion } from 'framer-motion';
 
 const Skills: React.FC = () => {
   const skills = [
-    { name: 'Django', level: 90 },
     { name: 'TypeScript', level: 85 },
+    { name: 'Django', level: 90 },
     { name: 'Laravel', level: 60 },
     { name: 'ASP.NET', level: 60 },
-    { name: 'Project Management', level: 95 },
     { name: 'CSS3/SCSS', level: 90 },
     { name: 'React.js', level: 90 },
     { name: 'Next.js', level: 60 },
     { name: 'MySQL', level: 70 },
+    { name: 'Cloud Deployment', level: 70 },
+    { name: 'CI / CD', level: 70 },
     { name: 'POSTGRES', level: 70 },
+    { name: 'MySQL', level: 70 },
     { name: 'Tailwind CSS', level: 88 },
     { name: 'Git/GitHub', level: 85 },
+    { name: 'Project Management', level: 95 },
     { name: 'POSTMAN / API DOG', level: 85 },
     { name: 'Docker', level: 85 },
   ];
