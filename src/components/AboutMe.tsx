@@ -87,10 +87,6 @@ const AboutMe: React.FC = () => {
               experience in fast-paced environments.
             </p>
 
-            <p className="text-gray-600 dark:text-gray-400 mb-6">
-              Tech Stack: React.js, Next.js, Django, Node.js, PostgreSQL, Docker, CI/CD
-            </p>
-
             <a
               href="./anil-wagle-cv.pdf"
               download="AnilWagle_CV.pdf"
