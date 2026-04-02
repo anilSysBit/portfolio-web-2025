@@ -17,7 +17,6 @@ const Skills: React.FC = () => {
     { name: 'Git/GitHub', level: 85 },
     { name: 'POSTMAN / API DOG', level: 85 },
     { name: 'Docker', level: 85 },
-    { name: 'Docker', level: 85 },
   ];
 
   const container = {
